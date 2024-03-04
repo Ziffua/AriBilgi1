@@ -24,6 +24,15 @@ namespace P06_Arrays
             ma1[2,3] =1;
             int[,] ma2 = { { 1, 2, 3 }, { 4, 5, 6 } };
 
+            string[] numAlfa = {"one", "two", "three", "four"};
+            int[] num = { 1, 2, 3, 4 };
+            float[] num2 = { 2f, 1.2f, 7f };
+            float[] num3 = { 3, 3.4f, 5 };
+
+            int[] num4;
+            num4 = new int[]{1,2,3};
+
+
             #endregion
 
 
