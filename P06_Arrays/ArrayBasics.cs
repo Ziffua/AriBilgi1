@@ -40,6 +40,10 @@ namespace P06_Arrays
 
             //int[] y1 = new int[5], y2 = new int[6];
 
+            //int[] array2 = [1, 2, 3, 4, 5, 6];
+            //int[] array3 = { 1, 2, 5, 7, 9 }; //both syntaxes are correct
+            //foreach (int i in array2) Console.WriteLine(i);
+
             #endregion
 
             #region array methods
@@ -60,6 +64,18 @@ namespace P06_Arrays
             //{
             //    Console.WriteLine($"{index+1}. eleman: {arro1[index]}");
             //}
+
+
+            #endregion
+
+            #region Multidimensional Arrays
+
+            //int[,] multiArr = { { 1, 2 }, { 9, 8 } };
+            //int[][] jaggedArr= new int[2][];
+            //jaggedArr[0] = [ 2, 3 ];
+            //jaggedArr[1] = [ 4, 5 ];
+            //Console.WriteLine(jaggedArr[1][0]);
+
 
 
             #endregion

@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             //ArrayBasics.Main(args);
-            ArrayInLoops.Main(args);
+            //ArrayInLoops.Main(args);
+            ArrayMethods.Main(args);
         }
     }
 }
