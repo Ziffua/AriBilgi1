@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            ArrayBasics.main(args);
+            //ArrayBasics.Main(args);
+            ArrayInLoops.Main(args);
         }
     }
 }
