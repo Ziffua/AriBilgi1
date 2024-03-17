@@ -1,3 +1,3 @@
 I'm learning
 
-Yeah, that's pretty much all
+That's pretty much all
