@@ -139,9 +139,6 @@ namespace P05_FlowMechanisms
             //} while (i <= 10);
             #endregion
 
-            //github test
-            //github test2
-
             #region Do While2
 
             //char choice = 'c';
@@ -177,43 +174,42 @@ namespace P05_FlowMechanisms
             #endregion
 
             #region nested do while
-            char choice = 'y';
+            //char choice;
+            //int num1, num2, resl = 0;
 
-            int num1, num2, resl = 0;
+            //do
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine("+, -, *, /\n");
+            //    choice = Convert.ToChar(Console.ReadLine());
 
-            do
-            {
-                Console.Clear();
-                Console.WriteLine("+, -, *, /\n");
-                choice = Convert.ToChar(Console.ReadLine());
+            //    Console.WriteLine("\nFirst number: ");
+            //    num1 = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("\nFirst number: ");
-                num1 = Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("\nSecond number: ");
+            //    num2 = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("\nSecond number: ");
-                num2 = Convert.ToInt32(Console.ReadLine());
-
-                switch (choice)
-                {
-                    case '+':
-                        Console.WriteLine("\nresult= " + (num1 + num2));
-                        break;
-                    case '-':
-                        Console.WriteLine("\nresult= " + (num1 - num2));
-                        break;
-                    case '*':
-                        Console.WriteLine("\nresult= " + (num1 * num2));
-                        break;
-                    case '/':
-                        Console.WriteLine("\nresult= " + (num1 / num2));
-                        break;
-                    default:
-                        Console.WriteLine("\nDefault");
-                        break;
-                }
-                Console.WriteLine("\nAgain? (y): ");
-                choice = Convert.ToChar(Console.ReadLine());
-            } while (choice == 'y');
+            //    switch (choice)
+            //    {
+            //        case '+':
+            //            Console.WriteLine("\nresult= " + (num1 + num2));
+            //            break;
+            //        case '-':
+            //            Console.WriteLine("\nresult= " + (num1 - num2));
+            //            break;
+            //        case '*':
+            //            Console.WriteLine("\nresult= " + (num1 * num2));
+            //            break;
+            //        case '/':
+            //            Console.WriteLine("\nresult= " + (num1 / num2));
+            //            break;
+            //        default:
+            //            Console.WriteLine("\nDefault");
+            //            break;
+            //    }
+            //    Console.WriteLine("\nAgain? (y): ");
+            //    choice = Convert.ToChar(Console.ReadLine());
+            //} while (choice == 'y');
 
             #endregion
 

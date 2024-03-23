@@ -15,8 +15,8 @@ namespace P05_FlowMechanisms
             //Get two authentication information from the user and compare them with the predefined one
             //If both of them are matching then show welcome screen. Otherwise, show the unmatching information
 
-            //string myUserName = "Admin";
-            //string myPassword = "1234";
+            //const string myUserName = "Admin";
+            //const string myPassword = "1234";
 
             //string userName;
             //string userPasword;
@@ -24,7 +24,7 @@ namespace P05_FlowMechanisms
             //Console.WriteLine("Username: ");
             //userName = Console.ReadLine();
 
-            //Console.WriteLine("Password" );
+            //Console.WriteLine("Password");
             //userPasword = Console.ReadLine();
 
             //if (userName == myUserName)
@@ -132,42 +132,42 @@ namespace P05_FlowMechanisms
             #endregion
 
             #region Switch   
-            //while (true)
-            //{
-            //    Console.WriteLine("Choose a letter between a-e");
-            //    char x = char.Parse(Console.ReadLine());
+            while (true)
+            {
+                Console.WriteLine("Choose a letter between a-e");
+                char x = char.Parse(Console.ReadLine());
 
-            //    switch (x)
-            //    {
-            //        case 'a':
-            //            Console.WriteLine("Action A");
-            //            break;
-            //        case 'b':
-            //            Console.WriteLine("Action B");
-            //            break;
-            //        case 'c':
-            //            Console.WriteLine("Action C");
-            //            break;
-            //        case 'd':
-            //            Console.WriteLine("Action D");
-            //            break;
-            //        case 'e':
-            //            Console.WriteLine("Action E");
-            //            break;
-            //        case 'f':
-            //            Console.WriteLine("Directing to Case D...");
-            //            goto case 'd';
-            //        case 'g':
-            //        case 'h':
-            //        case 'i':
-            //            Console.WriteLine("Selected G/H/I");
-            //            break;
-            //        default:
-            //            Console.WriteLine("Please choose a character between the interval");
-            //            break;
-            //    }
-            //}
-            
+                switch (x)
+                {
+                    case 'a':
+                        Console.WriteLine("Action A");
+                        break;
+                    case 'b':
+                        Console.WriteLine("Action B");
+                        break;
+                    case 'c':
+                        Console.WriteLine("Action C");
+                        break;
+                    case 'd':
+                        Console.WriteLine("Action D");
+                        break;
+                    case 'e':
+                        Console.WriteLine("Action E");
+                        break;
+                    case 'f':
+                        Console.WriteLine("Directing to Case D...");
+                        goto case 'd';
+                    case 'g':
+                    case 'h':
+                    case 'i':
+                        Console.WriteLine("Selected G/H/I");
+                        break;
+                    default:
+                        Console.WriteLine("Please choose a character between the interval");
+                        break;
+                }
+            }
+
             #endregion
             //https://github.com/UCC12-AriBilgi/CS101-Live
 

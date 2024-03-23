@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             //ConditionBasics.Main(args);
-            //LoopBasics.Main(args);
-            ArrayBaics.Main(args);
+            LoopBasics.Main(args);
+            
             
 
             Console.ReadKey();  
