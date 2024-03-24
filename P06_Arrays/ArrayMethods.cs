@@ -11,8 +11,8 @@ namespace P06_Arrays
         public static void Main(string[] args)
         {
             #region
-            //int[] arr1 = { 1, 2, 3,7,9,22,4 };
-            //int[,] arr2 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7,8,9} };
+            //int[] arr1 = { 1, 2, 3, 7, 9, 22, 4 };
+            //int[,] arr2 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 
             //Console.WriteLine(arr1.GetLength(0));
             //Console.WriteLine(arr1.Length);
@@ -39,6 +39,17 @@ namespace P06_Arrays
             //byte cc = (byte)bb;
             //byte dd = Convert.ToByte(bb);
 
+            #region MyRegion
+            int[,] numbers = { {5,6,7 }, {1,3,6 } };
+            Console.WriteLine(numbers.GetLength(0)); // the outer parantheses
+            Console.WriteLine(numbers.GetLength(1)); // inner parantheses
+
+            byte length = (byte)numbers[1,0]; // first is which inner parantheses; second is element in that parantheses
+            Console.WriteLine(length);
+
+
+
+            #endregion
 
         }
     }

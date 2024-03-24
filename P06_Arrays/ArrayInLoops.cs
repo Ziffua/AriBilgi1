@@ -32,7 +32,7 @@ namespace P06_Arrays
             #endregion
             #region Classify numbers as negative or positive and display their amount
             //int[] nums = { 1, -2, 3, -4, -5, 0, 6, 7, -8, 9, 10 };
-            //int n = 0, p = 0, z=0;
+            //int n = 0, p = 0, z = 0;
             //foreach (int num in nums)
             //{
             //    if (num > 0)
