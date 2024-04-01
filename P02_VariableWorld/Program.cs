@@ -115,6 +115,17 @@ namespace P02_VariableWorld
             //Console.WriteLine("Sum: "+c);
             #endregion
 
+            #region Float and Double
+            float flo = 35e3f;
+            //float floa = 35e3;
+            double dou = 12e4;
+            double doub = 12E4D;
+            Console.WriteLine(flo);
+            Console.WriteLine(dou);
+            Console.WriteLine(doub);
+
+            #endregion
+
         }
     }
 }

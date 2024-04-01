@@ -6,7 +6,7 @@
         {
             //ConditionBasics.Main(args);
             LoopBasics.Main(args);
-            
+            JumpStatements.Main(args);
             
 
             Console.ReadKey();  
